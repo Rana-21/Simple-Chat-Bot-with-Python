@@ -1,0 +1,14 @@
+print("welcome to your chat bot")
+while True :
+  User_input = input("you : ")
+  if User_input.lower() in ["good luck" , "goodbye" , "exit" , "quit"] :
+    print("chat bot : goodbye")
+    break
+  elif "what is your name" in User_input:
+    print ("my name is chat bot")
+  elif "how are you" in User_input:
+    print ("i am fine")
+  elif "thank you" in User_input:
+    print (" you are welcome")
+  else: 
+    print("sorry i did not understant that")
